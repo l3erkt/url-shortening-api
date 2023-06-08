@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap");
+
+:root {
+  --clr-cyan: hsl(180, 66%, 49%); // button colors
+  --clr-dark-violet: hsl(257, 27%, 26%); // bkg colors
+  --clr-red: hsl(0, 87%, 67%); // error msg border
+
+  --clr-grey: hsl(0, 0%, 75%); // bkg color
+  --clr-greyish-violet: hsl(257, 7%, 63%, .1); // font color
+  --clr-very-dark-blue: hsl(255, 11%, 22%); // info logo bkg color
+  --clr-very-dark-violet: hsl(260, 8%, 14%); // footer
+  --clr-black: #000;
+  --clr-white: #fff;
+
+  --ff-primary: "Poppins", sans-serif;
+
+  --fs-xl: 2rem; // main-header
+  --fs-lg: 1.55rem; // sub-headers
+  --fs-lg-sub: 1.35rem; // sub sub header
+  --fs-md: 1.125rem; // default
+  --fs-sm-sub: 1.0rem; // sm-sub body
+  --fs-sm: .85rem; // body content
+  --fs-xs: 0.55rem; // footer text
+
+  --fw-500: 500;
+  --fw-700: 700;
+}
+
+
+@media screen and (min-width: 48em) {
+  :root {
+    // desktop font-size
+    --fs-xl: 3.25rem; // main-header
+    --fs-lg: 2rem; // sub-headers
+    --fs-lg-sub: 1.35rem; // sub sub header
+    --fs-md: 1.125rem; // default
+    --fs-sm-sub: 1.0rem; // sm-sub body
+    --fs-sm: .85rem; // body content
+    --fs-xs: 0.55rem; // footer text
+  }
+}

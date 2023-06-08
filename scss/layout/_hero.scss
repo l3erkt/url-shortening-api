@@ -1,0 +1,45 @@
+.hero {
+  height: 70vh;
+  min-height: 650px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 1.25rem;
+  align-items: center;
+  text-align: center;
+  gap: .5rem
+}
+
+.hero-illustration {
+  width: 100%;
+  max-width: 350px;
+}
+
+.hero-content {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  align-items: center;
+
+  & .get-started {
+    cursor: pointer;
+  }
+}
+
+@media screen and (min-width: 48em) {
+  .hero {
+    flex-direction: row-reverse;
+    text-align: left;
+  }
+
+  .hero-illustration {
+    max-width: 425px;
+  }
+
+  .hero-content {
+    width: 100%;
+    max-width: 425px;
+    align-items: unset;
+  }
+}

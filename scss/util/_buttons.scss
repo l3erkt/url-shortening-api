@@ -1,0 +1,74 @@
+.lg-btn {
+  cursor: pointer;
+  width: 100%;
+  max-width: 175px;
+  background-color: var(--clr-cyan);
+  border: none;
+  border-radius: 2rem;
+  padding: 10px;
+  color: var(--clr-white);
+  transition: 0.3s;
+
+  &:hover {
+    opacity: 50%;
+  }
+}
+
+.link-btn {
+  cursor: pointer;
+  width: 100%;
+  background-color: var(--clr-cyan);
+  border: none;
+  border-radius: 0.5rem;
+  padding: 10px;
+  color: var(--clr-white);
+  transition: 0.3s;
+
+  &:hover {
+    opacity: 70%;
+  }
+}
+
+
+.copy-btn {
+  cursor: pointer;
+  width: 100%;
+  max-width: 125px;
+  background-color: var(--clr-cyan);
+  border: none;
+  border-radius: 0.5rem;
+  padding: 6px;
+  color: var(--clr-white);
+  transition: 0.3s;
+
+  &:hover {
+    opacity: 70%;
+  }
+}
+
+.login-btn {
+  cursor: pointer;
+  width: 100%;
+  min-width: 100px;
+  background-color: transparent;
+  border: none;
+  color: var(--clr-grey);
+  border-radius: 0.5rem;
+  padding: 6px 10px;
+}
+
+.sign-up {
+  cursor: pointer;
+  width: 100%;
+  min-width: 100px;
+  background-color: var(--clr-cyan);
+  border: none;
+  border-radius: 2rem;
+  padding: 6px 10px;
+  color: var(--clr-white);
+  transition: 0.3s;
+
+  &:hover {
+    opacity: 50%;
+  }
+}

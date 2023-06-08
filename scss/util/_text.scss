@@ -1,0 +1,51 @@
+// font size
+.fs-xl {
+  font-size: var(--fs-xl);
+  color: var(--clr-black);
+}
+
+.fs-lg {
+  font-size: var(--fs-lg);
+  color: var(--clr-black);
+}
+
+.fs-lg-sub {
+  font-size: var(--fs-lg-sub);
+}
+
+.fs-md {
+  font-size: var(--fs-md);
+}
+
+.fs-sm-sub {
+  font-size: var(--fs-sm-sub);
+  color: var(--clr-grey);
+}
+
+.fs-sm {
+  font-size: var(--fs-sm);
+  color: var(--clr-grey);
+}
+
+.fs-xs {
+  font-size: var(--fs-xs);
+  color: var(--clr-grey);
+}
+
+// font weight
+.fw-500 {
+  font-weight: var(--fw-500);
+}
+
+.fw-700 {
+  font-weight: var(--fw-700);
+}
+
+// font color
+.w {
+  color: var(--clr-white);
+}
+
+.b {
+  color: var(--clr-black);
+}

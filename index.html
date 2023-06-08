@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <!-- FONT AWESOME -->
+    <script
+      src="https://kit.fontawesome.com/46f720795f.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- EXTERNAL STYLESHEET -->
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Shortly URL shortening API Challenge</title>
+  </head>
+  <body>
+    <nav class="navbar">
+      <img class="nav-logo" src="images/logo.svg" alt="" />
+      <ul class="nav-links">
+        <div class="nav-col-1">
+          <li><a href="#">Features</a></li>
+          <li><a href="#">Pricing</a></li>
+          <li><a href="#">Resources</a></li>
+        </div>
+        <div class="nav-col-2">
+          <button class="login-btn fs-sm">Login</button>
+          <button class="sign-up fs-sm">Sign Up</button>
+        </div>
+      </ul>
+      <i class="burger fa-solid fa-bars"></i>
+    </nav>
+    <section class="hero">
+      <img
+        class="hero-illustration"
+        src="images/illustration-working.svg"
+        alt=""
+      />
+      <div class="hero-content">
+        <h1 class="fs-xl fw-700">More than just shorter links</h1>
+        <p class="fs-sm-sub fw-500">
+          Build your brand's recognition and get detailed insights on how your
+          links are performing.
+        </p>
+        <button class="lg-btn get-started">Get Started</button>
+      </div>
+    </section>
+    <section class="info">
+      <section class="search-bar">
+        <div class="display-img">
+          <div class="fluid-container-v1">
+            <form method="get" id="link-form" class="link-form">
+              <input
+                type="url"
+                name="url"
+                id="url"
+                placeholder="Shorten a link here..."
+                class="input-url"
+              />
+            </form>
+            <button id="link-btn" type="button" form="link-form" class="link-btn">
+              Shorten It! 
+            </button>
+          </div>
+        </div>
+      </section>
+      <div class="info-container">
+
+        <!-- <div class="display-link">
+          <p class="orignal-link">http://www.abc123.com</p>
+          <div class="d-link-row-2">
+            <p class="new-link">http:/rel.ink/gxOXp9</p>
+            <button class="copy-btn">Copy</button>
+          </div>
+        </div> -->
+
+        <div class="info-header">
+          <h2 class="fs-lg fw-700">Advanced Statistics</h2>
+          <p class="fs-sm-sub fw-500">
+            Track how your links are performing across the web with our advanced
+            statistics dashboard.
+          </p>
+        </div>
+        <div class="info-body">
+          <article class="brand-recognition">
+            <img
+              class="info-logo"
+              src="images/icon-brand-recognition.svg"
+              alt=""
+            />
+            <h3 class="fs-lg-sub fw-700">Brand Recognition</h3>
+            <p class="fs-sm fw-500">
+              Boost your brand recognition with each click. Generic links don't
+              mean a thing. Branded links help instil confidence in your
+              content.
+            </p>
+          </article>
+          <article class="detailed-records">
+            <img
+              class="info-logo"
+              src="images/icon-detailed-records.svg"
+              alt=""
+            />
+            <h3 class="fs-lg-sub fw-700">Detailed Records</h3>
+            <p class="fs-sm fw-500">
+              Gain insights into who is clicking your links. Knowing when and
+              where people engage with your content helps inform better
+              decisions.
+            </p>
+          </article>
+          <article class="fully customizable">
+            <img
+              class="info-logo"
+              src="images/icon-fully-customizable.svg"
+              alt=""
+            />
+            <h3 class="fs-lg-sub fw-700">Fully Customizable</h3>
+            <p class="fs-sm fw-500">
+              Improve brand awareness and content discoverability through
+              customizable links, supercharging audience engagement.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+    <section class="started">
+      <div class="fluid-container-v2">
+        <h2 class="fs-lg w">Boost your links today</h2>
+        <button class="lg-btn get-started">Get Started</button>
+      </div>
+    </section>
+    <footer class="footer">
+      <nav class="nav-footer">
+        <img class="nav-footer-logo" src="images/logo.svg" alt="" />
+        <ul class="links">
+          <li class="link-header">Features</li>
+          <li>Link Shortening</li>
+          <li>Branded Links</li>
+          <li>Analytics</li>
+        </ul>
+        <ul class="links">
+          <li class="link-header">Resources</li>
+          <li>Blog</li>
+          <li>Developers</li>
+          <li>Support</li>
+        </ul>
+        <ul class="links">
+          <li class="link-header">Company</li>
+          <li>About</li>
+          <li>Our Team</li>
+          <li>Careers</li>
+          <li>Contact</li>
+        </ul>
+        <ul class="social-links">
+          <li>
+            <a href="#"><img src="images/icon-facebook.svg" alt="" /></a>
+          </li>
+          <li>
+            <a href="#"><img src="images/icon-twitter.svg" alt="" /></a>
+          </li>
+          <li>
+            <a href="#"><img src="images/icon-pinterest.svg" alt="" /></a>
+          </li>
+          <li>
+            <a href="#"><img src="images/icon-instagram.svg" alt="" /></a>
+          </li>
+        </ul>
+      </nav>
+    </footer>
+
+    <script src="app.js"></script>
+  </body>
+</html>

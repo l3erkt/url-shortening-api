@@ -1,0 +1,34 @@
+.fluid-container-v1 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    gap: 1rem;
+}
+
+
+
+.fluid-container-v2 {
+    width: 100%;
+    max-width: 475px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+    gap: 1rem;
+    margin: auto;
+    margin-right: auto;
+}
+
+
+
+@media screen and (min-width: 48em) {
+    .fluid-container-v1 {
+        width: 100%;
+        display: grid;
+        grid-template-columns: 75% 25%;
+        padding: 1.5rem 3rem;
+        gap: 1rem;
+    }
+}
+
