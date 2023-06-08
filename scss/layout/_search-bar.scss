@@ -12,7 +12,7 @@
   width: 100%;
   max-width: 880px;
   background-color: var(--clr-dark-violet);
-  background-image: url(/images/bg-shorten-mobile.svg);
+  background-image: url(images/bg-shorten-mobile.svg);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: right;
@@ -65,7 +65,7 @@
 
 @media screen and (min-width: 48em) {
   .display-img {
-    background-image: url(/images/bg-shorten-desktop.svg);
+    background-image: url(images/bg-shorten-desktop.svg);
     background-position: unset;
     background-size: cover;
   }
