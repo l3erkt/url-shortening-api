@@ -4,9 +4,7 @@
 ###############################################
 *.sketch
 design/
-README-template.md
-style-guide.md
-README.md
+*.md
 
 # Avoid accidental XD or Figma upload if you convert the design file
 #######################################################
