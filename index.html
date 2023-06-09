@@ -19,6 +19,7 @@
     <title>Shortly URL shortening API Challenge</title>
   </head>
   <body>
+    <span class="black-bkg"></span>
     <nav class="navbar">
       <img class="nav-logo" src="images/logo.svg" alt="" />
       <ul class="nav-links">
@@ -32,7 +33,7 @@
           <button class="sign-up fs-sm">Sign Up</button>
         </div>
       </ul>
-      <i class="burger fa-solid fa-bars"></i>
+      <i id="burger" class="burger fa-solid fa-bars"></i>
     </nav>
     <section class="hero">
       <img
@@ -61,6 +62,7 @@
                 placeholder="Shorten a link here..."
                 class="input-url"
               />
+              <!-- <span class="error-msg">Please add a link</span> -->
             </form>
             <button id="link-btn" type="button" form="link-form" class="link-btn">
               Shorten It! 

@@ -22,6 +22,10 @@
   gap: 0.75rem;
   align-items: center;
 
+  & h1 {
+    line-height: 2.5rem;
+  }
+
   & .get-started {
     cursor: pointer;
   }
@@ -41,5 +45,35 @@
     width: 100%;
     max-width: 425px;
     align-items: unset;
+    
+    & h1 {
+      line-height: 4rem;
+    }
+  }
+}
+
+
+
+@media screen and (min-width: 90em) {
+  .hero {
+    height: 60vh;
+    flex-direction: row-reverse;
+    text-align: left;
+    gap: 4rem;
+    padding: 0 3.25rem;
+  }
+
+  .hero-illustration {
+    max-width: 725px;
+  }
+
+  .hero-content {
+    width: 100%;
+    max-width: 625px;
+    align-items: unset;
+
+    & h1 {
+      line-height: 6rem;
+    }
   }
 }

@@ -12,7 +12,7 @@
   width: 100%;
   max-width: 880px;
   background-color: var(--clr-dark-violet);
-  background-image: url(./images/bg-shorten-mobile.svg);
+  background-image: url(../images/bg-shorten-mobile.svg);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: right;
@@ -61,11 +61,21 @@
   }
 }
 
+// error msg
+.error-bar {
+  border: 3px solid var(--clr-red);
+}
 
+.error-msg {
+  color: var(--clr-red);
+  font-size: 0.75rem;
+  font-style: italic;
+}
 
 @media screen and (min-width: 48em) {
   .display-img {
-    background-image: url(./images/bg-shorten-desktop.svg);
+    position: relative;
+    background-image: url(../images/bg-shorten-desktop.svg);
     background-position: unset;
     background-size: cover;
   }
@@ -79,7 +89,7 @@
     border-radius: 0.5rem;
     padding: 1rem 1.5rem;
     align-items: center;
-  
+
     & .d-link-row-2 {
       width: 100%;
       display: flex;
@@ -89,10 +99,24 @@
       border-top: unset;
       padding-top: unset;
       align-items: center;
-  
+
       & .new-link {
         color: var(--clr-cyan);
       }
     }
+  }
+
+  // error msg
+  .error-bar {
+    border: 3px solid var(--clr-red);
+  }
+
+  .error-msg {
+    position: absolute;
+    bottom: 3px;
+    left: 60px;
+    color: var(--clr-red);
+    font-size: 0.75rem;
+    font-style: italic;
   }
 }

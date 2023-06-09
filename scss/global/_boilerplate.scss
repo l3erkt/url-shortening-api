@@ -30,7 +30,21 @@
 @media screen and (min-width: 48em) {
   :root {
     // desktop font-size
-    --fs-xl: 3.25rem; // main-header
+    --fs-xl: 3rem; // main-header
+    --fs-lg: 2rem; // sub-headers
+    --fs-lg-sub: 1.35rem; // sub sub header
+    --fs-md: 1.125rem; // default
+    --fs-sm-sub: 1.0rem; // sm-sub body
+    --fs-sm: .85rem; // body content
+    --fs-xs: 0.55rem; // footer text
+  }
+}
+
+
+@media screen and (min-width: 90em) {
+  :root {
+    // desktop font-size
+    --fs-xl: 5.25rem; // main-header
     --fs-lg: 2rem; // sub-headers
     --fs-lg-sub: 1.35rem; // sub sub header
     --fs-md: 1.125rem; // default

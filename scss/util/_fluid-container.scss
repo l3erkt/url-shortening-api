@@ -21,6 +21,11 @@
 }
 
 
+.d-show {
+    transform: none;
+}
+
+
 
 @media screen and (min-width: 48em) {
     .fluid-container-v1 {
@@ -29,6 +34,10 @@
         grid-template-columns: 75% 25%;
         padding: 1.5rem 3rem;
         gap: 1rem;
+    }
+
+    .d-show {
+        transform: translateY(0);
     }
 }
 
